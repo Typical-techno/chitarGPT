@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #ffffff;
-  background-image: url('https://wired.me/wp-content/uploads/2023/05/Lead_deepfake.gif');
+  background-image: url('./assets/web_bg.gif');
   min-height: 100vh;
   display: flex;
   flex-direction: column;
