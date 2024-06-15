@@ -10,7 +10,7 @@ function Footer() {
           <div className="space-y-6">
               <button className="text-5xl font-bold">
                 <p className="flex items-center">
-                  <span>Chitargupt</span>
+                  <span>ChitraGPT</span>
                 </p>
               </button>
             <div>
