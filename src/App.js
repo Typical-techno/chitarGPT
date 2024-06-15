@@ -25,7 +25,7 @@ function App() {
       <header className="App-header bg-cover">
         <div className="w-full flex flex-col xl:flex-row space-y-12 xl:space-y-0">
           <p className="text-5xl xl:text-8xl text-white drop-shadow-2xl font-bold items-center justify-center xl:justify-normal flex px-8">
-            ChitarGPT
+            ChitraGPT
           </p>
           <div className="flex w-full justify-center xl:justify-end px-16">
             <div className="flex items-center justify-center w-full md:w-9/12 xl:w-5/12 border border-black rounded-xl">
