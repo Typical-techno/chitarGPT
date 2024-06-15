@@ -8,16 +8,16 @@ function Footer() {
         <div></div>
         <div className="text-left text-black w-full">
           <div className="space-y-6">
-              <button className="text-5xl font-bold">
-                <p className="flex items-center">
-                  <span>ChitraGPT</span>
-                </p>
-              </button>
+            <button className="text-5xl font-bold">
+              <p className="flex items-center">
+                <span>ChitraGPT</span>
+              </p>
+            </button>
             <div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-                maiores minus eaque sequi, quo voluptas harum totam nostrum et
-                eveniet dignissimos suscipit ullam id cum.
+                This is a user friendly Deep Fake Detection tool designed for
+                efficient scanning of suspicious video/image files to find out
+                any manipulation.
               </p>
             </div>
             <div className="flex items-center text-black">
