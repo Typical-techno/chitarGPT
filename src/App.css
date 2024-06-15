@@ -14,14 +14,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
+  background-image: url('https://wired.me/wp-content/uploads/2023/05/Lead_deepfake.gif');
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -35,4 +36,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@keyframes uploadProgress {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.upload-progress-container {
+  width: 100%;
+  height: 20px;
+  background-color: #000;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.upload-progress-bar {
+  height: 100%;
+  background-color: #6a64f1;
+  animation: uploadProgress 3s linear forwards;
 }
